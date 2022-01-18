@@ -302,7 +302,7 @@
       background-position: top center;
       transform: translateX(-40%) scale(0.5);
       opacity: 0;
-      transition: 0.7s ease-in;
+      transition: all 0.7s;
     }
 
     .card:nth-of-type(1) {
@@ -605,7 +605,7 @@
 
     .transition {
       opacity: 0;
-      transition: 0.7s ease-in;
+      transition: all 0.7s;
     }
 
     .visible {
